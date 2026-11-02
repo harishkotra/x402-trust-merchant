@@ -25,6 +25,10 @@ stranger. **Here, we sell it.** One hop leaves the building; two are ours.
 TOTAL SPENT  $0.054   ·  2 sellers touched  ·  2.2s
 ```
 
+<img width="1260" height="678" alt="02-merchant" src="https://github.com/user-attachments/assets/4f97b3ee-d274-4658-a04a-a6d6e7ab472b" />
+<img width="1260" height="678" alt="05-merchant-dry" src="https://github.com/user-attachments/assets/c5e00536-8b9d-4984-80cf-03086a6d78ac" />
+
+
 One external dependency, 2.2 seconds, and the whole thing still starts with a real `402`
 from a server nobody in the room owns.
 
