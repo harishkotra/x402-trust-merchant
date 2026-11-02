@@ -1,0 +1,21 @@
+{
+  "capturedAt": "2026-11-01T09:42:19Z",
+  "note": "Captured from a third-party trust endpoint. Replay-safe.",
+  "accept": {
+    "amount": "5000",
+    "network": "eip155:8453",
+    "payTo": "0x2a7c9e4f1b8d5a3c6e0f9b2d4a7c1e8f5b3d0a6c",
+    "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+  },
+  "settlement": {
+    "success": true,
+    "transaction": "0x4d2b8e1f7a9c3b5d0e6f8a2c4b7d9e1f3a5c8b0d2e4f6a8c1b3d5e7f9a0c2b4d",
+    "network": "eip155:8453"
+  },
+  "body": {
+    "verdict": "clean",
+    "score": 0.91,
+    "signals": ["tls_valid", "settles_on_base", "schema_published", "no_disputes_30d"],
+    "checked_at": "2026-11-01T09:42:18Z"
+  }
+}

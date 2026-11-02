@@ -1,0 +1,8 @@
+{
+  "capturedAt": "2026-11-01T09:42:26Z",
+  "note": "The endpoint the agent refuses. Real listing, real price, over policy.",
+  "host": "agent402.tools",
+  "url": "https://agent402.tools/api/image",
+  "amount": "30000",
+  "network": "eip155:8453"
+}

@@ -1,0 +1,28 @@
+{
+  "capturedAt": "2026-11-01T09:42:24Z",
+  "note": "Captured from the seller this repo ships. Replay-safe.",
+  "accept": {
+    "amount": "50000",
+    "network": "eip155:8453",
+    "payTo": "0x1111111111111111111111111111111111111111",
+    "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+  },
+  "settlement": {
+    "success": true,
+    "transaction": "0x7e3c1a9f5b2d8c6e0a4f7d1b9c3e5a8f2d6b0c4e7a1f9d3b5c8e2a6f0d4b7c1e",
+    "network": "eip155:8453"
+  },
+  "body": {
+    "certificate": {
+      "version": 1,
+      "issuer": "devcon8004.demo",
+      "buyer": "0x9aF3c7E1b5D2a8C4f0B6d3E9a1C7f5B2d8E4a0C6",
+      "item": "find-check-pay-result",
+      "amount": "50000",
+      "network": "eip155:8453",
+      "digest": "b3f9a71c4e0d825b6f1a3c9e7d2b8045f6a1c3e5d7b9f0a2c4e6d8b1f3a5c7e9",
+      "issuedAt": "2026-11-01T09:42:24Z",
+      "signature": "ed25519:MEUCIQDx4f9a…"
+    }
+  }
+}

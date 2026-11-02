@@ -1,0 +1,35 @@
+{
+  "name": "x402-trust-merchant",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Variant B - one owned hop. The agent finds a stranger, then buys the trust check and the result from us.",
+  "scripts": {
+    "start": "node run.mjs",
+    "dry": "node run.mjs --dry",
+    "fixtures": "node run.mjs --fixtures",
+    "live": "node run.mjs --live",
+    "seller": "node seller/server.mjs",
+    "test": "node test/e2e.mjs && node test/contract.mjs && node test/offline.mjs",
+    "demo": "node run.mjs --fixtures"
+  },
+  "dependencies": {
+    "viem": "^2.21.0"
+  },
+  "author": "Harish Kotra (https://harishkotra.me)",
+  "license": "MIT",
+  "homepage": "https://dailybuild.xyz",
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "x402",
+    "agents",
+    "mcp",
+    "erc-8004",
+    "usdc",
+    "base",
+    "payments",
+    "agentic-commerce"
+  ]
+}

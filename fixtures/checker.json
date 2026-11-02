@@ -1,0 +1,33 @@
+{
+  "capturedAt": "2026-11-01T09:45:02Z",
+  "note": "Variant B's middle hop — our own checker probing geospatial.openverbs.com. Replay-safe.",
+  "accept": {
+    "amount": "2000",
+    "network": "eip155:8453",
+    "payTo": "0x1111111111111111111111111111111111111111",
+    "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+  },
+  "challenge": {
+    "dialect": "body",
+    "x402Version": 2,
+    "accepts": [{ "scheme": "exact", "network": "eip155:8453", "amount": "2000" }]
+  },
+  "settlement": {
+    "success": true,
+    "transaction": "0x1b5d9f3a7c2e4b6d8f0a1c3e5b7d9f2a4c6e8b0d1f3a5c7e9b2d4f6a8c0e1b3d",
+    "network": "eip155:8453"
+  },
+  "body": {
+    "check": {
+      "target": "geospatial.openverbs.com",
+      "verdict": "caution",
+      "score": 1,
+      "evidence": [
+        { "probe": "llms.txt", "status": 404, "ms": 118, "present": false },
+        { "probe": ".well-known/x402", "status": 200, "ms": 96, "present": true },
+        { "probe": ".well-known/agent-card.json", "status": 404, "ms": 84, "present": false }
+      ],
+      "checkedAt": "2026-11-01T09:45:01Z"
+    }
+  }
+}

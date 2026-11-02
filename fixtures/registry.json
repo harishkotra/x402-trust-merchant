@@ -1,0 +1,10 @@
+{
+  "capturedAt": "2026-11-01T09:41:50Z",
+  "note": "ERC-8004 identity #1 on Base Sepolia, read straight from the registry contract. Replay-safe.",
+  "registered": true,
+  "agentId": 1,
+  "chainId": 84532,
+  "owner": "0x21fded74c901129977b8e28c2588595163e1e235",
+  "version": "1.0.0",
+  "tokenURI": "ipfs://bafybeigdemo8004agent1"
+}

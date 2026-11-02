@@ -1,0 +1,39 @@
+# dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# secrets — never commit a wallet
+.env
+.env.*
+!.env.example
+.demo-seller-key.json
+*.pem
+*.key
+STOP
+
+# run output
+results/
+*.log
+npm-debug.log*
+yarn-error.log*
+coverage/
+.nyc_output/
+
+# editor / OS junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# build artefacts (this project has none — kept so forks stay clean)
+dist/
+build/
+.cache/
+.tmp/
+
+BLOG.md
+SOCIAL.md

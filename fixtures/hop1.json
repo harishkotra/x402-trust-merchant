@@ -1,0 +1,27 @@
+{
+  "capturedAt": "2026-11-01T09:42:11Z",
+  "note": "Captured from geospatial.openverbs.com — a seller this repo does not own. Replay-safe.",
+  "accept": {
+    "amount": "2000",
+    "network": "eip155:8453",
+    "payTo": "0x8f4b2c1d9e7a6b5c4d3e2f1a0b9c8d7e6f5a4b3c",
+    "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+  },
+  "challenge": {
+    "dialect": "header",
+    "x402Version": 2,
+    "accepts": [{ "scheme": "exact", "network": "eip155:8453", "amount": "2000" }]
+  },
+  "settlement": {
+    "success": true,
+    "transaction": "0x9c1f7a2e5b8d4c6f0a3e7d9b2c5f8a1e4d7b0c3f6a9e2d5b8c1f4a7e0d3b6c9a",
+    "network": "eip155:8453"
+  },
+  "body": {
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "local_time": "15:07",
+    "latitude": 19.076,
+    "longitude": 72.8777
+  }
+}
